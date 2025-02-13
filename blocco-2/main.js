@@ -8,11 +8,11 @@ const myFirstWord = firstWord.length
 const mySecondWord = secondWord.length
 
 if (myFirstWord < mySecondWord) {
-    console.log(firstWord);
-    console.log(secondWord);
+    console.log(firstWord, secondWord);
+    // console.log(secondWord);
 } else if (myFirstWord > mySecondWord) {
-    console.log(secondWord);
-    console.log(firstWord);
+    console.log(secondWord, firstWord);
+    // console.log(firstWord);
 } else {
     console.log("The words are equal long");
 }
