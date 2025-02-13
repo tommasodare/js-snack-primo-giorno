@@ -6,6 +6,9 @@ const array = []
 
 for (let index = 0; index < 6; index++) {
     const userNumber = Number(prompt("Type a number"))
+    if (isNaN(userNumber)) {
+        alert("Invalid Number")
+    } 
     if (userNumber % 2 !== 0) {
         array.push(userNumber)
     }
