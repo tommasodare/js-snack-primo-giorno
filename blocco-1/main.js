@@ -7,7 +7,7 @@ const secondNumber = prompt("Inserisci un numero a scelta")
 
 if (firstNumber > secondNumber) {
     console.log(firstNumber);
-} else if (secondNumber > firstNumber) {
+} else if (firstNumber < secondNumber) {
     console.log(secondNumber);
 } else {
     console.log("I due numeri sono uguali");
